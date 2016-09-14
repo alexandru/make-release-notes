@@ -20,6 +20,7 @@ Testing frameworks, add in sbt using `libraryDependencies += ... % "test"`
     "org.scalacheck"                   %% "scalacheck"                % "1.11.6"          % "test"
     "org.specs2"                       %% "specs2-core"               % "3.8.5"           % "test"
     "com.github.scalaprops"            %% "scalaprops"                % "0.3.4"           % "test"
+    "io.monix"                         %% "minitest"                  % "0.24"            % "test"
 
 Other libraries, add in sbt using `libraryDependencies += ...`
 
@@ -41,6 +42,7 @@ Other libraries, add in sbt using `libraryDependencies += ...`
     "com.typesafe.akka"                %% "akka-actor"                % "2.4.10"
     "com.typesafe.akka"                %% "akka-stream"               % "2.4.10"
     "com.typesafe.akka"                %% "akka-http-core"            % "2.4.10"
+    "io.monix"                         %% "monix"                     % "2.0.1"
 
 Note that [Shapeless](https://github.com/milessabin/shapeless) will not be
 published for 2.12.0-RC1; see [#5395](https://github.com/scala/scala/pull/5395).
